@@ -1,0 +1,196 @@
+Points :
+ Naresh  | Raju | Quiz master
+ 1       | 0    | 0
+ 0       | 0    | 1
+ 
+ 
+ - java access modifiers - public, private, protected, default.
+ - If else statements
+ - switch - Condition, cases, break, default.
+ - Loops 
+ - Collections
+ - OOPS Concepts
+
+ 
+ 2) 11 (5
+    10
+   ----
+    1
+
+Real Website - 7Years - Cloud - Amazon, Google, Herku, Microsoft...
+ 
+Java, Pythyon, groovy, kotlin, Ruby, grails, GoLang ...
+ 
+ 
+Requirement Gathering.
+-----------------------  
+ 1. What is Even what is odd
+ 2. Which operator to use to achieve functionality
+ 3. write Code.
+ 
+
+Loops:
+-------
+- For, while, do while.
+
+For Loop:
+  - for, initializer, condition, incrementer
+  - While - while, initializer, condition, incrementer.
+  - Do while - do, while, initializer, condition, incrementer.
+  
+  
+OOPS Concepts.
+-------------------
+Object
+class
+inheritance
+abstraction
+encapsulation
+
+
+https://www.geeksforgeeks.org/association-composition-aggregation-java/
+polymorphism
+
+
+arrays
+Collections 
+
+inheritance:
+
+Grandfather - 100kg - Gold
+father - 120 diamonds
+son - 150 cars
+
+class GrandFather{
+ int gold = 100;
+ 
+ public void sleep(){
+   System.out.println("Snores")
+ }
+ 
+}
+
+class Father extends GrandFather{
+ int diamonds = 120;
+}
+
+class son extends Father{
+ int car = 150
+}
+
+
+Abstraction. - Hiding unnecessary details.
+------------
+Car - interface - steering, brake, accelarator
+
+implementation - How all these works is implementation .
+
+
+encapsulation:
+class Student{
+  int id;
+  String rollNumber;
+  String city;
+}
+ 
+ 
+Polymorphism
+-------------
+
+Poly - many ; morphism - forms
+
+
+Method Overloading or Compile Time polimorphism
+Method Overriding or Runtime polymorphism
+
+
+
+Method Overloading or Compile Time polimorphism
+- Overloaded methods will be in same class 
+- except number of arguments rest of signature will be same.
+class calculator{
+	
+	public int calc(a, b){
+	   return a + b;
+	}
+
+	public int calc(a, b, c){
+	   return a + b + c;
+	}
+}
+ 
+Method Overriding or Runtime polymorphism
+- It will be between two classes, those two classes should be in parent child relationship
+- Method signature should be same.
+class Car{
+  public void printRunning(){
+   System.out.println("Car is Running");
+  }
+}
+
+class Audi extends Car{
+ public void printRunning(){
+   System.out.println("Audi Car is Running");
+ }
+}
+
+Association:
+Group of different types of objects inside a class.
+
+Aggregation
+Department
+ - Students
+ 
+There will be some relation but not strong.
+
+
+Composition:
+Humanbody
+  Heart.
+Strong relation ship 
+
+
+this keyword
+ --done
+
+static keyword
+  -- variable - If we want to share data between objects. The static variable is class level - EX: StaticTest
+  -- method - To make a method availble for class level
+  -- block - To initialize static variables. 
+          To execute some processing before main method.
+  
+- Class A{
+  static int i;
+}  
+
+
+objects - a1, a2
+
+final Keyword
+  - To achieve Immutability.
+  Variable - Once you initiate a final variable you cant modify it.
+  Method - You cant override final method.
+  Class - you cant extend a class.
+
+Exception Handling
+    - What is exception handling
+	- try, catch, throw, throws, finally.
+	- Exception heirarchy.
+
+- Errors 
+   - OutOfMemory error, StackOverflow Error etc 
+      - This will occur due to failure in hardware.
+      - We cant control or handle these in our programs.
+
+- Exception
+   - If your program stops abruptly while execution. Then that scenario is exception.
+   - This can be handled programatically.
+   - try, catch, throw, throws, finally.
+   - Exception heirarchy.   
+
+
+Collections
+  -- 
+  
+  
+Mutithreading
