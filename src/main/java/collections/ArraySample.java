@@ -18,6 +18,9 @@ public class ArraySample {
         for(int i=0; i< arr.length; i++){
             System.out.println( arr[i]  );
         }
+
+        //Add Element in an array
+        //Remove element from an array.
     }
 
 }

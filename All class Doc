@@ -188,9 +188,28 @@ Exception Handling
    - try, catch, throw, throws, finally.
    - Exception heirarchy.   
 
+- super
+In case of parent child relation super key word comes into picture
+ - It can be used in variable level.
+ - It can be used in constructor level.
+ - It can be used in method level.
 
-Collections
-  -- 
-  
+Array : values of Similiar data assigned to a common variable.
+syntax:
+     int a[] = new int[]{1,2,3,4,5}
+	 int[] a = new int[]{1,2,3,4,5}
+
+
+Collections framwork
+ArrayList, Hashmap.
+
+ArrayList -
+
+
+
+
+
+
+
   
 Mutithreading
