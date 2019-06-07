@@ -8,7 +8,7 @@ final class CarFinalDemo{
 	*/
 }
 
-class MaruthiFinalDemo extends CarFinalDemo{
+class MaruthiFinalDemo {
 	public void milege(){
 	  System.out.println("Milege");
 	}		
