@@ -196,11 +196,64 @@ In case of parent child relation super key word comes into picture
 
 Array : values of Similiar data assigned to a common variable.
 syntax:
-     int a[] = new int[]{1,2,3,4,5}
-	 int[] a = new int[]{1,2,3,4,5}
+     int a[][] = new int[]{1,2,3,4,5}
+	 int[][] a = new int[]{1,2,3,4,5}
 
 
 Collections framwork
+                        Iterable
+						   |
+			            Collection
+						   |
+			 --------------------------
+			 List       Queue          set
+              |           |
+       - ArrayList     PriorityQueue  HashSet
+       - Linked List   Dequeue        Treeset
+       - Vector
+       - Stack
+
+ArrayList
+   - We can perform data manipulation on single dimension elements.
+   - Non sysnchrnized. - It wont support in multithreaded environment
+Pros:
+   - Performance is fast in case of search.
+Cons:
+  - Remove element performance is slow. - Due to shuffling when the element is removed from index. the performance is slow
+  - Adding element in index based is slow.
+
+List arr = new ArrayList()
+
+
+ArrayList
+  1, 2, 3, 7, 8, 10, 11, 15
+
+
+Linked List:
+    - Non Sysnchronized
+	- It has implementation of double linked list
+ Pros:
+    Faster in case of remove and add elemnt
+ 1,2,4, 5,7,10
+
+ null| 1 | nxtAddr  ___ prevAddr| 2 | nxtAddr ___  prevAddr| 5 | nxtAddr  __ prevAddr| 7 | nxtAddr __ prevAddr| 10 | nxtAddr
+
+2's address(prevAddr) | 4 | 5'address (nxtAddr)
+
+
+Remove
+ null| 1 | nxtAddr  ___ prevAddr| 2 | nxtAddr ___  prevAddr| 5 | nxtAddr  ___ prevAddr| 10 | nxtAddr
+
+
+Stack:
+ - Poll, peek. - see the advantages of these methods
+
+Vector
+   - It has only synchronized methods.
+
+
+
+
 ArrayList, Hashmap.
 
 ArrayList -
