@@ -207,10 +207,10 @@ Collections framwork
 						   |
 			 --------------------------
 			 List       Queue          set
-              |           |
+              |           |             |
        - ArrayList     PriorityQueue  HashSet
-       - Linked List   Dequeue        Treeset
-       - Vector
+       - Linked List   Dequeue        Treeset - Elements are stored in Sorted form
+       - Vector                       LinkedHashset  - Mintains insertion order
        - Stack
 
 ArrayList
@@ -252,7 +252,49 @@ Vector
    - It has only synchronized methods.
 
 
+Queue: First in First Out.
 
+
+Priority Queue
+----------------
+
+Queue:
+-------
+
+
+HashSet:
+--------
+Bukets size of 16 is created.
+
+"abc"
+Find Hashcode for the value to be inserted.
+
+Hashcode :- To identify an object uniquely, JVM generates a hashcode.
+
+Again hashing will happen and it generates a number between- 0 to 15
+
+"def"
+1. hashing
+2. again hasing
+3. 0 to 15 between a number wiull be generated , lets assume 12
+
+"cba"
+
+hashset.put("data")
+-----------------------
+
+
+
+
+           Collections
+               |
+            Hashmap
+               |
+            LinkedHashMap
+               |
+			TreeMap
+
+https://www.hackerrank.com/
 
 ArrayList, Hashmap.
 
@@ -266,3 +308,9 @@ ArrayList -
 
   
 Mutithreading
+
+TODO
+Treeset
+LinkedHashSet
+
+Do examples of these
