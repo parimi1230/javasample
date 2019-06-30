@@ -280,37 +280,36 @@ Again hashing will happen and it generates a number between- 0 to 15
 
 "cba"
 
-hashset.put("data")
+
+https://www.hackerrank.com/
+
+ArrayList, Hashmap.
+hashset.add("data")
 -----------------------
 
 
 
 
            Collections
+		      Map
                |
-            Hashmap
-               |
-            LinkedHashMap
-               |
-			TreeMap
-
-https://www.hackerrank.com/
-
-ArrayList, Hashmap.
-
-ArrayList -
+     --------------------------
+     |      |                 |
+ Hashmap  LinkedHashMap     TreeMap
 
 
+HashMap : It has key value pair.
+HashMap hm = new HashMap();
+hm.put("key", "value")
+hm.get("key")
+hm.remove("key")
+
+HashMap Internally working:
+https://www.youtube.com/watch?v=CojCE-ojdGY
+
+Resume
+Credentials
 
 
 
-
-
-  
-Mutithreading
-
-TODO
-Treeset
-LinkedHashSet
-
-Do examples of these
+Mutithreading:
